@@ -1,6 +1,6 @@
 <?php
 if($modx->context->get('key') != "mgr"){
-/* grab the current langauge from the cultureKey request var */
+/* grab the current language from the cultureKey request var */
 switch ($_REQUEST['cultureKey']) {
 
 case 'de':
